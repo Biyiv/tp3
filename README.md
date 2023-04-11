@@ -16,3 +16,5 @@ Le passage entre ses 3 états se fait par 3 actions :
 -git checkout
 
 Grâce au fichier .gitignore lorsque l'on tape la commande git status, tous les fichiers .class ne s'affiche plus
+
+Nous avons maintenant créé une nouvelle branche de test
