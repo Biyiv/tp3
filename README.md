@@ -5,16 +5,22 @@
 
 ### Compte rendu TP1 Introduction GIT
 
-Dans ce TP on apprend à travailler avec git.
-Il y a 3 états différents : 
--Modifié correspond au système de fichier local
--Sélectionné correspond à la zone de séléction
--Validé correspond au dépot où les modifications sont enregistrées sous forme de validations 
-Le passage entre ses 3 états se fait par 3 actions : 
--git add
--git commit
--git checkout
+Dans ce TP on apprend à créer un dossier partagé avec un autre utilisateur, à envoyer et récupérer les données depuis GitHub dans un dossier partagé. 
 
-Grâce au fichier .gitignore lorsque l'on tape la commande git status, tous les fichiers .class ne s'affiche plus
+Nous avons effectué les commandes suivantes afin de transférer des données : 
 
-Nous avons maintenant créé une nouvelle branche de test
+- git pull
+- git add .
+- git commit -m "commentaire"
+- git push
+
+Nous avons aussi utilisé d'autres commandes qui ont servi à manipuler le dossier partagé :
+
+- git clone git@github.com:<utilisateur_de_athos>/tp3.git
+- git branch
+- git log
+- git checkout -b test
+- git checkout main
+- git merge test
+
+Nous avons avec ces commandes cloné des dossiers de GitHub vers notre machine, nous avons listé les branches actuellement créé et nous en avons créer d'autres, ensuite nous les avons fusionnées. 
